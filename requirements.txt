@@ -1,8 +1,8 @@
-fastapi==0.111.1          # main web framework
-uvicorn==0.23.2           # ASGI server
-sqlalchemy==2.0.23        # ORM
-pydantic==2.6.6           # data validation (prebuilt wheel, no Rust needed)
-passlib[bcrypt]==1.7.4    # password hashing
-python-jose==3.3.0        # JWT handling
-python-dotenv==1.0.0      # environment variable loading
-email-validator==2.3.0    # validate emails
+fastapi==0.111.1
+uvicorn==0.23.2
+sqlalchemy==2.0.23
+pydantic==2.5.3
+passlib[bcrypt]==1.7.4
+python-jose==3.3.0
+python-dotenv==1.0.0
+email-validator==2.3.0
